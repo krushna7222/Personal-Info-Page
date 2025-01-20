@@ -123,6 +123,15 @@ h2 {
   flex-wrap: wrap;
 }
 
+#softskill > h3,
+#hardskill > h3 {
+  color: rgb(151, 5, 153);
+}
+#softskill > ul > :first-child,
+#hardskill > ul > :first-child {
+  margin-top: 15px;
+}
+
 /* projects */
 
 #projects {
@@ -248,6 +257,16 @@ h2 {
   div > img {
     height: 250px;
     width: 250px;
+  }
+  .skills {
+    display: block;
+  }
+  .skl {
+    display: flex;
+    justify-content: center;
+  }
+  #hardskill > h3 {
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 420px) {
