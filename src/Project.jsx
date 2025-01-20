@@ -26,7 +26,15 @@ function Project() {
               and safety. it is user friendly. built using HTML, CSS,
               JavaScript.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">
+              <a
+                className="anchor"
+                target="_blank"
+                href="https://github.com/krushna7222/Pesticides-Web.git"
+              >
+                Explore Now...
+              </a>
+            </Button>
           </Card.Body>
         </Card>
         <Card className="project">
@@ -65,7 +73,11 @@ function Project() {
               monitor transportation operations. Key features typically include:
               Dashboard, Vehicle and Driver Management, Booking & Scheduling.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">
+              <a className="anchor" target="_blank" href="">
+                Explore Now...
+              </a>
+            </Button>
           </Card.Body>
         </Card>
         <Card className="project">
@@ -81,7 +93,11 @@ function Project() {
               Product detail, Footer and Responsive design. built using HTML,
               CSS.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">
+              <a className="anchor" target="_blank" href="">
+                Explore Now...
+              </a>
+            </Button>
           </Card.Body>
         </Card>
       </div>
