@@ -181,7 +181,7 @@ h2 {
   padding: 0px 7vw;
   height: auto;
   background-color: rgb(18, 21, 25);
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-around;
 }
@@ -192,6 +192,10 @@ h2 {
 .foot-content {
   width: 27%;
   padding: 5vh 5vw;
+}
+.foot > .foot-content1 > h3,
+.foot > .foot-content > h4 {
+  color: rgb(2, 242, 255);
 }
 .footicon {
   color: white;
@@ -243,6 +247,26 @@ h2 {
 
   #navbar {
     margin-left: 25vw;
+  }
+  .foot {
+    display: block;
+  }
+  .foot > div {
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+  }
+  .foot > div > h4 {
+    margin-bottom: 0px;
+  }
+  .foot-content1 {
+    width: 45%;
+    padding: 5vh 5vw 20px 5vw;
+  }
+  .foot-content {
+    width: 100%;
+    padding: 0vh 5vw;
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 515px) {
