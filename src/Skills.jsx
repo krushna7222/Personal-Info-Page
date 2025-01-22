@@ -27,6 +27,7 @@ function Skills() {
               <li>CSS</li>
               <li>JavaScript</li>
               <li>React.js</li>
+              <li>JQuery</li>
               <li>C</li>
               <li>Bootstrap</li>
               <li>React Bootstrap</li>
