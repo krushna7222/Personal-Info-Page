@@ -10,6 +10,30 @@ function Project() {
 
       <div className="projects">
         <Card className="project">
+          <Card.Img className="pimg" variant="top" src="images/finedine.png" />
+          <Card.Body>
+            <Card.Title>
+              <strong className="ptitle">FineDine Restaurant</strong>
+            </Card.Title>
+            <Card.Text>
+              Developed a responsive, visually appealing restaurant website
+              using HTML, CSS, JavaScript, and ReactJS. Implemented an intuitive
+              UI, dynamic menu displays fetched from a JSON file, and seamless
+              navigation. Applied responsive design for optimal device
+              performance and used Git for version control.
+            </Card.Text>
+            <Button variant="primary">
+              <a
+                className="anchor"
+                target="_blank"
+                href="https://finedine-restaurant.netlify.app/"
+              >
+                Explore Now...
+              </a>
+            </Button>
+          </Card.Body>
+        </Card>
+        <Card className="project">
           <Card.Img
             className="pimg"
             variant="top"
@@ -61,25 +85,7 @@ function Project() {
             </Button>
           </Card.Body>
         </Card>
-        <Card className="project">
-          <Card.Img className="pimg" variant="top" src="images/tms.png" />
-          <Card.Body>
-            <Card.Title>
-              <strong className="ptitle">Transport Managment System</strong>
-            </Card.Title>
-            <Card.Text>
-              In A Transport Management System (TMS) website, built using HTML,
-              CSS, JavaScript, and PHP, allows users to efficiently manage and
-              monitor transportation operations. Key features typically include:
-              Dashboard, Vehicle and Driver Management, Booking & Scheduling.
-            </Card.Text>
-            <Button variant="primary">
-              <a className="anchor" target="_blank" href="">
-                Explore Now...
-              </a>
-            </Button>
-          </Card.Body>
-        </Card>
+
         <Card className="project">
           <Card.Img className="pimg" variant="top" src="images/ajioclone.png" />
           <Card.Body>
